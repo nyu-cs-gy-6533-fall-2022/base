@@ -190,4 +190,4 @@ The Sobel operator can be used to detect edges in images:
 
 *  https://en.wikipedia.org/wiki/Sobel_operator
 
-Implement the Sobel operator. Given an image, e.g., Mandrill.ppm or Empire_State_Building.ppm (taken from https://commons.wikimedia.org/wiki/File:Empire_State_Building_(HDR).jpg), apply the Sobel operator on it and save the result. Edge detection can be influenced by smoothing/blurring the image. Implement a 5x5 Gaussian blur filter and apply it to the image prior to the Sobel operator. Show the result of steps (Sobel without blurring, only blurring, Sobel after blurring) with pictures.
+Implement the Sobel operator. Given an image, e.g., Mandrill.ppm or Empire_State_Building.ppm (taken from https://commons.wikimedia.org/wiki/File:Empire_State_Building_(HDR).jpg), apply the Sobel operator on it and save the result. Edge detection can be influenced by smoothing/blurring the image. Implement a 5x5 Gaussian blur filter and apply it to the image prior to the Sobel operator. Show the result of all steps (Sobel without blurring, only blurring, Sobel after blurring) with pictures.

@@ -49,7 +49,7 @@ This class will not have any written exams. All the grading will be based on ass
 We will use Discord as the main means of communication. Send an e-mail to the intructor if you have not received an invitation yet.
 
 ### Acknowledgement: 
-This course is based on the computer graphics course designed by Professor Daniele Panozzo (NYU Courant) and later revised by Professor Claudio Silva (NYU VIDA Lab) with help from Jonathas Costa in 2019-2021. 
+This course is based on the computer graphics course designed by Professor Daniele Panozzo (NYU Courant) and later revised by Professor Claudio Silva (NYU VIDA Lab) with help from Jonathas Costa in 2019-2021. Parts of the course materials are based on the computer graphics courses by Professors Daniel Weiskopf and Thomas Ertl (University of Stuttgart).
 
 ## Assignments
 

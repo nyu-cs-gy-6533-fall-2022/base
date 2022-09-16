@@ -184,14 +184,10 @@ The result of applying alpha compositing to the Mandrill image (front picture) a
 
 This task is optional and worth 1.5% of the final grade. 
 
-## Morphological Operators
+## Edge Detection
 
-Read about Morphological Operators on Images:
+The Sobel operator can be used to detect edges in images:
 
-*  https://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic4.htm
+*  https://en.wikipedia.org/wiki/Sobel_operator
 
-*  https://www.di.univr.it/documenti/OccorrenzaIns/matdid/matdid699113.pdf
-
-*  https://www.researchgate.net/publication/272484795_Morphological_Operations_for_Image_Processing_Understanding_and_its_Applications
-
-Implement the dilatation and erosion operations. Given an image, e.g., Mandrill.ppm, apply the dilatation operation on it and save the result. Using the same original image, apply the erosion operation. Next, you must subtract the result of the first operation (dilatation) from the result of the second operation (erosion). What is the final result? Show it with pictures.
+Implement the Sobel operator. Given an image, e.g., Mandrill.ppm or Empire_State_Building.ppm (taken from https://commons.wikimedia.org/wiki/File:Empire_State_Building_(HDR).jpg), apply the Sobel operator on it and save the result. Edge detection can be influenced by smoothing/blurring the image. Implement a 5x5 Gaussian blur filter and apply it to the image prior to the Sobel operator. Show the result of steps (Sobel without blurring, only blurring, Sobel after blurring) with pictures.

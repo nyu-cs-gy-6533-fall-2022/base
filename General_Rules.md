@@ -46,7 +46,7 @@ The delivery of the exercises is done using github classroom. The repository sho
 
 * A README.md file containing a description of what you've implemented and compilation instructions, as well as explanations/comments on your results.
 
-*  Screenshots of all your results with associated descriptions in the README file.
+*  Screenshots of all your results with associated descriptions in the README file. You should embed your images in your README file at the appropriate locations like this: ![NYU logo](NYU_Long_RGB_Color.png) 
 
 Note: It will generally not be necessary to use additional external software for your assignments. If you find that you need to use additional binaries / external libraries other than those provided by us, please first get approval by contacting us on Discord.
 

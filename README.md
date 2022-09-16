@@ -53,7 +53,7 @@ This course is based on the computer graphics course designed by Professor Danie
 
 ## Assignments
 
-* [General Guidelines](General_Rules/General_Rules.md) 
+* [General Guidelines](General_Rules.md) 
 
 * [Assignment 1: Images, Morphological Operators](Assignment_1/requirements/Assignment-1_Images.md) 
 

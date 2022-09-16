@@ -1,4 +1,4 @@
-# CS-GY 6533 A / CS-UY 4533 -- Interactive Computer Graphics - Fall 2022
+# CS-GY 6533 A / CS-UY 4533 - Interactive Computer Graphics - Fall 2022
 
 ### Course Instructors
 

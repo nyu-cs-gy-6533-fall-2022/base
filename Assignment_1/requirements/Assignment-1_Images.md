@@ -134,7 +134,7 @@ int main(int argc, char* argv[]) {
         // Addition assignment plus mirroring on X axis
         MyImageClass image4;
         image4 += image3;
-        image4.mirrorX();
+        image4.mirrorX(); // just an example, no need to implement a mirrorX function
 
         image4.save("path_to_disk/mirror_pic.ppm");
 

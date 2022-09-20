@@ -73,6 +73,7 @@ int main(int argc, char* argv[]) {
         MyImageClass image1("path_to_image_on_disk/pic.ppm");
         
         // Another possible way to load it from the disk in the "C++ way"
+        // You do not need to implement this, it is sufficient if your class just loads files passed to the constructor!
         MyImageClass image2;
         ifstream imageFile1;
         // If the file is a PPM type 5 or 6 (binary)
@@ -85,7 +86,8 @@ int main(int argc, char* argv[]) {
         // You can do this way
         image1.save("path_to_disk/changed_pic.ppm");
 
-        //You also can do it in the "C++ way"
+        // You also can do it in the "C++ way"
+        // You do not need to implement this, it is sufficient if your class just has a "save" function for storing files!
         ofstream imageFile;
         imageFile.open("path_to_disk/changed_pic.ppm");
         if (imageFile.is_open()) {

@@ -159,10 +159,10 @@ The result of subtracting from the Mandrill image, the Tandon Color image.
 
 You must pay attention to the following issues:
 
-* The addition of images can generate results greater than the maximum value of a pixel (in a PPM file, the maximum value is equal to 255). You must allow this behavior for the \texttt{add} operator 
+* The addition of images can generate results greater than the maximum value of a pixel (in a PPM file, the maximum value is equal to 255). You must allow this behavior for the `add` operator 
 (operator+). However, when using the addition assignment operator (operator+=), you must average the result of adding the two pixels values.
 
-* The subtracting operator can produce pixels with values less than zero (0). You must take care of this issue (hint: \texttt{std::clamp}).
+* The subtracting operator can produce pixels with values less than zero (0). You must take care of this issue (hint: clamp the value).
 
 * The multiplication of pixels by a scalar can produce overflows and underflows of pixels values.
 

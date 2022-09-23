@@ -8,7 +8,7 @@
 
 <michael.krone@nyu.edu>
 
-Office hours: t.b.a.
+TA Office hours: Tuesday 12:00-2:00 pm and Thursday 1:00-3:00 pm (Zoom).
 
 ### Lectures:
 Wednesdays, 5:00pm - 7:30pm

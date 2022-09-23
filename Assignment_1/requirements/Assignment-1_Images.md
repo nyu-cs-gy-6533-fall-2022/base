@@ -4,7 +4,7 @@
 
 Handout date: 09/16/2022
 
-Submission deadline: 09/23/2022, 11:59PM EST
+Submission deadline: ~~09/23/2022~~ 09/25/2022, 11:59PM EST
 
 Demo date: TBA, via Zoom appointments
 

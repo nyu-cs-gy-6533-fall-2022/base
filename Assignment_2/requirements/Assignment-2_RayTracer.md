@@ -33,7 +33,7 @@ For each of the tasks below, add at least one image in the readme demonstrating 
 
 The code that you used for all tasks has to be provided.
 
-For this assignment, we provide a minimal code framework that uses CMAKE and includes the [GLM](https://github.com/g-truc/glm) library as an external resource (see folder ``code``). OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software. Although it is based on the OpenGL Shading Language (GLSL) specifications, it is also very useful for graphics projects like this ray tracer that do not use OpenGL/GLSL. GLM offers a lot of functionality for linear algebra, that is, you do not have to write your own vector operation functions. For more information on how to use GLM, see the [Manual](http://glm.g-truc.net/glm.pdf) or the [API Reference page](http://glm.g-truc.net/0.9.8/api/index.html).
+For this assignment, we provide a minimal code framework that uses CMAKE and includes the [GLM](https://github.com/g-truc/glm) library as an external resource (see folder ``code`` - **the same code should also be in your GitHub classroom repository once you have cloned it**). OpenGL Mathematics (GLM) is a header only C++ mathematics library for graphics software. Although it is based on the OpenGL Shading Language (GLSL) specifications, it is also very useful for graphics projects like this ray tracer that do not use OpenGL/GLSL. GLM offers a lot of functionality for linear algebra, that is, you do not have to write your own vector operation functions. For more information on how to use GLM, see the [Manual](http://glm.g-truc.net/glm.pdf) or the [API Reference page](http://glm.g-truc.net/0.9.8/api/index.html).
 
 ### (1) Basic Setup: Camera and View Rays 
 

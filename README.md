@@ -57,10 +57,11 @@ This course is based on the computer graphics course designed by Professor Danie
 
 * [Assignment 1: Images, Morphological Operators](Assignment_1/requirements/Assignment-1_Images.md) 
 
+* [Assignment 2: Ray Tracer](Assignment_2/requirements/Assignment-2_RayTracer.md) 
+
 * t.b.a.
 
 <!--
-* [Assignment 2: 2D Vector Graphics Editor](Assignment_2/requirements/Assignment-2_2D_Editor.md) 
 
 * [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.md) 
 

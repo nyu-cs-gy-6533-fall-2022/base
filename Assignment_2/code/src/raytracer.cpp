@@ -55,5 +55,5 @@ int main() {
     std::cout << "Total execution time in milliseconds: " << duration.count() << std::endl;
 
     // write image data to PPM file
-	return writeP6PPM(unsigned int(dimx), unsigned int(dimy), image);
+	return writeP6PPM((unsigned int)dimx, (unsigned int)dimy, image);
 }

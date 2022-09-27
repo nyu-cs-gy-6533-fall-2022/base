@@ -2,7 +2,7 @@
 
 _________________
 
-**IMPORTANT: The code skeleton that you get in your GitHub classroom repo has two errors (it will compile fine when using Visual Studio, since it is very permissive, but it will throw compilation errors when using GCC). The version here in the ``code`` folder is correct, please have a look at it and change your code accordingly! Sorry for the inconvenience (there is unfortunately no easy way for me to make updates to your classroom repos). **
+**IMPORTANT: The code skeleton that you get in your GitHub classroom repo has two errors (it will compile fine when using Visual Studio, since it is very permissive, but it will throw compilation errors when using GCC). The version here in the ``code`` folder is correct, please have a look at it and change your code accordingly! Sorry for the inconvenience (there is unfortunately no easy way for me to make updates to your classroom repos).**
 
 Here is a description of the two fixes:
 * ``raytracer.cpp``, line 58: ``return writeP6PPM(unsigned int(dimx), unsigned int(dimy), image);`` needs to be replaced by ``return writeP6PPM((unsigned int)dimx, (unsigned int)dimy, image);``

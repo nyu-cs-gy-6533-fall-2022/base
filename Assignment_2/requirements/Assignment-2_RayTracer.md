@@ -1,5 +1,15 @@
 # CS-GY 6533 A / CS-UY 4533 - Interactive Computer Graphics - Fall 2022
 
+_________________
+
+**IMPORTANT: The code skeleton that you get in your GitHub classroom repo has two errors (it will compile fine when using Visual Studio, since it is very permissive, but it will throw compilation errors when using GCC). The version here in the ``code`` folder is correct, please have a look at it and change your code accordingly! Sorry for the inconvenience (there is unfortunately no easy way for me to make updates to your classroom repos). **
+
+Here is a description of the two fixes:
+* ``raytracer.cpp``, line 58: ``return writeP6PPM(unsigned int(dimx), unsigned int(dimy), image);`` needs to be replaced by ``return writeP6PPM((unsigned int)dimx, (unsigned int)dimy, image);``
+* ``object.h``, line 18: ``virtual float intersect(const glm::vec3& rayOrigin, const glm::vec3& rayDir, glm::vec3& intersectPos = glm::vec3(0), glm::vec3& normal = glm::vec3(0)) = 0;`` needs to be replaced by ``	virtual float intersect(const glm::vec3& rayOrigin, const glm::vec3& rayDir, glm::vec3& intersectPos, glm::vec3& normal) = 0;``
+
+_________________
+
 # Assignment 2: Ray Tracer
 
 Handout date: 09/25/2022

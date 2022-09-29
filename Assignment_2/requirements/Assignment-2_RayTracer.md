@@ -64,6 +64,10 @@ After setting up the camera, you have to loop over all pixels and compute the lo
 
 ![ray directions](rtimage-raydir.png)
 
+If you clamp the direction values to (0...1) first, the resulting image should look like this:
+
+![ray directions clamped to 0...1](rtimage-raydir-clamp.png)
+
 A vector for storing the image RGB data per pixel is already included in the source code skeleton (``image``) and is set to the correct resolution. The contents of this image data vector are automatially written to a PPM file (``rtimage.ppm``). You can update the RGB values like this:
 ``image[ <index of the current pixel> ] = glm::u8vec3(red * 255, green * 255, blue * 255);`` Note that the red/green/blue values are assumed to be normalized in this example, i.e., in the range [0.0 ... 1.0].
 

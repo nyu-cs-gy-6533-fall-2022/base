@@ -55,7 +55,9 @@ Replace the triangle by a cube with differently colored sides. Each side should 
 
 ### (4) 3D Objects: Sphere
 
-Write a routine that creates a unit sphere with arbitrary tessellation. The easiest way is to iterate over the latitude/longitude in small (user-definable) steps of the same angle, thus generating a so-called UV-sphere. However, other solutions are also accepted. Store the vertices of the sphere in a vertex buffer object (without duplication of vertices) and generate an element buffer for rendering. 
+Write a routine that creates a unit sphere with arbitrary tessellation. The easiest way is to iterate over the latitude/longitude in small (user-definable) steps of the same angle, thus generating a so-called UV-sphere (see image below). However, other solutions are also accepted. Store the vertices of the sphere in a vertex buffer object (without duplication of vertices) and generate an element buffer for rendering. 
+
+![UV-Sphere](uvsphere.png)
 
 Compute and store the normals of each vertex also in a VBO. The sphere should be colored uniformly orange: (1.0, 0.5, 0.0). Also send the normal to the shader as per-vertex attributes, set them as color and provide a screenshot (to prevent negative color values, you should use the absolute value as color).
 

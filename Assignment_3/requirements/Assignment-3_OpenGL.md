@@ -45,7 +45,9 @@ Apply your view and projection matrices in the shader.
 
 ### (2) Orbit Camera Controls
 
-The user should be able to control the camera using the WASD and arrow keys. A/D should rotate the camera around the up direction of the scene (i.e., left and right), W/S should rotate around the right direction of the camera (i.e., up and down). The camera should always look at the center of the scene, i.e., towards (0, 0, 0). The up/down keys should move the camera forward/backward (i.e., towards (0,0,0) or away from it). Make sure that the rotation is always with respect to the current viewpoint, e.g., left/right/up/down should be relative to the current camera location. Think about suitable restrictions for the camera movement (the object should always be visible). The R key should reset the camera.
+The user should be able to control the camera using the WASD and arrow keys. A/D should rotate the camera around the up direction of the scene (i.e., left and right), W/S should rotate around the right direction of the camera (i.e., up and down). The camera should always look at the center of the scene, i.e., towards (0, 0, 0). The up/down keys should move the camera forward/backward (i.e., towards (0,0,0) or away from it). Make sure that the rotation is always with respect to the current viewpoint, e.g., left/right/up/down should be relative to the current camera location (see image below). Think about suitable restrictions for the camera movement (the object should always be visible). The R key should reset the camera.
+
+![Orbit Camera (image source: http://www.ece.northwestern.edu/local-apps/matlabhelp/techdoc/visualize/chview6.html)](chview39.png)
 
 ### (3) 3D Objects: Cube
 

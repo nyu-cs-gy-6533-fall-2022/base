@@ -76,3 +76,4 @@ The bunny model is not centered and quite small. Compute and apply a model matri
 
 *Hint:* It might be useful to store the min and max vertex coordinate values for each axis during mesh loading.
 
+![bunny](bunny.png)

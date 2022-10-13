@@ -39,7 +39,7 @@ Set up the transformation matrices so that the scene is rendered using perspecti
 
 The camera should be positioned at (0, 0, 5) and look at the point (0, 0, 0). The up direction should be (0, 1, 0) and the field of view in y direction 35°. The near and far values should be 0.1 and 100.0.
 
-*Hint:* You can set the matrices manually, but you are also allowed to use the functions provided by GLM.
+*Hint:* You can set the matrices manually, but you are also allowed to use the functions provided by GLM. There is a good tutorial about this at: https://learnopengl.com/Getting-started/Camera
 
 Apply your view and projection matrices in the shader.
 

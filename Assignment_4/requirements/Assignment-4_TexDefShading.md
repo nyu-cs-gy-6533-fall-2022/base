@@ -48,6 +48,8 @@ For this, you first have to
 * compute the texture coordinates for your sphere vertices,
 * pass the texture ID and the texture coordinates to your shader, and use them to texture your sphere. *The resulting globe should still be Phong-shaded!*
 
+![Textured sphere](globe.jpg)
+
 #### (2) Render-to-Texture
 
 Generate a texture that has the size of the viewport and bind it to a framebuffer object. Render the globe scene to this framebuffer object. After unbinding the framebuffer object, render the texture to a quad, i.e., two triangles forming a rectangle that fills the entire screen.

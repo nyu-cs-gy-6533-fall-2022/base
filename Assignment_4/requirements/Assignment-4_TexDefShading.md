@@ -62,7 +62,7 @@ http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-14-render-to-text
 Extend the render-to-texture pipeline from the previous task to implement *Deferred Shading*. The basic idea of deferred shading is to render the color, depth, and normals to three different textures in the first step.
 These textures are then used in a second step to calculate the final Phong shading only for the visible pixels (see also: https://en.wikipedia.org/wiki/Deferred_shading). That is, your new shader program for rendering the texture to the screen needs to take care of this.
 
-#### (3) Outlines
+#### (4) Outlines
 
 Deferred shading can also be used to implement additional effects in screen space. One such effect are depth-dependent outlines. Render the bunny model from the last assignment or the dragon (stanford_dragon2.off) and modify your deferred shading so that it additionally draws black outlines if discontinuities occur in the depth buffer, i.e., if the distance between two objects is above a certain threshold.
 

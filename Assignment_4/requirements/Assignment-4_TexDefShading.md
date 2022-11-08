@@ -66,6 +66,8 @@ These textures are then used in a second step to calculate the final Phong shadi
 
 Deferred shading can also be used to implement additional effects in screen space. One such effect are depth-dependent outlines. Render the bunny model from the last assignment or the dragon (stanford_dragon2.off) and modify your deferred shading so that it additionally draws black outlines if discontinuities occur in the depth buffer, i.e., if the distance between two objects is above a certain threshold.
 
+![This is how a very simple implementation of depth-aware outlines could look like.](dragon_contour.png)
+
 ### Optional Task
 
 This tasks are optional and worth 3% of the final grade.

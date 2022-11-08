@@ -68,7 +68,10 @@ Deferred shading can also be used to implement additional effects in screen spac
 
 *Hint: There are multiple ways how to achieve this effect. The image below just shows one possibility.*
 
-![This is how a very simple implementation of depth-aware outlines could look like.](dragon_contour.png)
+![This is how a very simple implementation of depth-dependent outlines could look like.](dragon_contour.png)
+
+Bunny with cyan contours for better visiblity:
+![Simple depth-dependent outlines](bunny_contour.png)
 
 ### Optional Task
 

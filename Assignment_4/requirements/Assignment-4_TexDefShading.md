@@ -71,7 +71,7 @@ Deferred shading can also be used to implement additional effects in screen spac
 ![This is how a very simple implementation of depth-dependent outlines could look like.](dragon_contour.png)
 
 Bunny with cyan contours for better visiblity:
-![Simple depth-dependent outlines](bunny_contour.png)
+![Simple depth-dependent outlines](bunny_contours.png)
 
 ### Optional Task
 
